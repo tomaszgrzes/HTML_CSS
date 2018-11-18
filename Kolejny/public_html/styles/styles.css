@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Bardzo fajna";
+    src: url("../good times rg.ttf");
+}
+
+
+
+div.myform label {
+    display: block;
+    width: 30vw;
+    min-width: 5cm;
+    /*font-family: "Bardzo fajna";*/
+    
+    float: left;
+}
+
+div.myform input {
+    display: block;
+    margin: 0.2em;
+}
+
+div.myform input[name^="email"] {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .3em;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -.1em;
+}
+
+div.myform input[name^="email"] {
+    background-image: url("../koperta-emaila-list-poczta-cienka-kreskowa-ikona-liniowy-wektorowy-symbol-99230029.jpg");
+    background-size: 15%;
+    
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+div.myform input[type="button"] {
+    background-color: gray;
+    border: 6px outset gray;
+    border-radius: 8px;
+}
+
+div.myform input[type="button"]:active {
+    border: 6px inset gray;
+}
